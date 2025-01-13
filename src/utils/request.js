@@ -3,7 +3,7 @@ import { getToken, removeToken } from "./token";
 import { useNavigate } from "react-router-dom";
 
 const request = axios.create({
-    baseURL: process.env.VUE_APP_BASE_API,
+    baseURL: process.env.REACT_APP_API_URL,
     timeout: 5000
 });
 
